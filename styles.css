@@ -121,6 +121,6 @@ body {
 /* Gestion des messages d'erreur */
 .erreur {
     margin-top: 20px;
-    color: #8B0000; /* Rouge foncé */
+    color: #8B0000; 
     font-weight: bold;
 }

@@ -1,4 +1,4 @@
-// --- Étape 1 : Récupérer les éléments du HTML ---
+// --- Étape 1 : Récupération éléments du HTML ---
 // On "capture" les éléments dont on a besoin pour les manipuler
 const villeInput = document.getElementById("villeInput");
 const rechercheBtn = document.getElementById("rechercheBtn");
