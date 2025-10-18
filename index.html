@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axiane Météo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="card-meteo">
+        <div class="recherche">
+            <input type="text" id="villeInput" placeholder="Entrez une ville...">
+            <button id="rechercheBtn">🔍</button>
+        </div>
+
+        <div class="resultat-meteo" id="resultatMeteo" style="display: none;">
+            <img id="iconeMeteo" src="" alt="Icône météo">
+            <h1 id="temperature">24°C</h1>
+            <h2 id="nomVille">Paris</h2>
+            <div class="details">
+                <div class="col">
+                    <span>💧</span>
+                    <div>
+                        <p id="humidite">50%</p>
+                        <p>Humidité</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>💨</span>
+                    <div>
+                        <p id="vent">15 km/h</p>
+                        <p>Vent</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="erreur" id="erreur" style="display: none;">
+            <p>Ville non trouvée. Veuillez réessayer.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
